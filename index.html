@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header id="top" class="header">
+      <div class="wrapper header__wrapper">
+        <a href="">
+          <object data="img/logo.svg" type="image/svg+xml" class="logo-object"></object>
+        </a>
+
+        <div class="burger">
+          <span class="burger__line line-top"></span>
+          <span class="burger__line line-middle"></span>
+          <span class="burger__line line-bottom"></span>
+        </div>
+        <nav class="main__nav">
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Объекты</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Компания</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Как купить</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Агентам</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Регионам</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Акции</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__call">
+          <a href="tel:+8 888 88 88 98">8 888 88 88 98</a>
+          <p>Звони скорее!</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-block">
+      <h2 class="main-block__title">Найдено 666 квартир</h2>
+      <section class="flats">
+        <div class="wrapper flats__wrapper">
+          <p class="sort">
+            Сортировать по:
+            <span class="sort__price sort__item">Цене</span>
+            <span class="price__arrow up-down"></span>
+            <span class="sort__rooms sort__item">Площади</span>
+            <span class="rooms__arrow up-down"></span>
+          </p>
+          <div class="cards-container">
+            <!-- Выводим карточки через javascript -->
+          </div>
+          <button class="button show-button">Показать еще</button>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="wrapper subscribe__wrapper">
+          <div class="subscribe__text">
+            <h2 class="subscribe__title">Успей купить!</h2>
+            <p>Подпишись и успей словить все акции</p>
+          </div>
+          <form action="" method="get" class="form">
+            <p class="inputs-wrapper">
+              <input type="text" placeholder="E-mail" id="email" />
+              <input type="submit" value="ПОДПИСАТЬСЯ" id="submit-button" />
+            </p>
+
+            <label class="checker">
+              <input type="checkbox" name="" id="" checked />
+              подписаться на новости
+            </label>
+          </form>
+        </div>
+      </section>
+
+      <div class="button-up__container">
+        <a href="#top" class="button button-up"></a>
+      </div>
+    </main>
+
+    <script src="js/script.min.js"></script>
+  </body>
+
+</html>
